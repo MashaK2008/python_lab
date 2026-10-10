@@ -1,0 +1,9 @@
+def square(num):
+    return num ** 2
+def is_even(num):
+    return num % 2 == 0
+def average(nums):
+    return sum(nums) / len(nums)
+
+if __name__ == '__main__':
+    print("Перевірка модуля")
